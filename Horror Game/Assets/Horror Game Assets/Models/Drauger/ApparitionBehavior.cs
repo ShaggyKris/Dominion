@@ -8,6 +8,7 @@ public class ApparitionBehavior : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+<<<<<<< Updated upstream
         //Increases object's x position to travel down hallway
         Vector3 pos = transform.position;
         pos.x = pos.x + 0.005f;
@@ -18,4 +19,11 @@ public class ApparitionBehavior : MonoBehaviour {
             Destroy(gameObject);
         }
     }
+=======
+		Vector3 pos = transform.position;
+		pos.x = pos.x + 0.005f;
+		transform.position = pos;
+
+	}
+>>>>>>> Stashed changes
 }

@@ -1,7 +1,10 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-18272
 Cmd: getPlatforms
+<<<<<<< Updated upstream
 Cmd: compileSnippet
   api=1 type=0 insize=938 outsize=923 kw=POINT SHADOWS_OFF pd= ok=1
 Cmd: compileSnippet
   api=1 type=1 insize=938 outsize=2142 kw=POINT SHADOWS_OFF pd= ok=1
+=======
+>>>>>>> Stashed changes
