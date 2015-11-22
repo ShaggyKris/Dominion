@@ -101,6 +101,7 @@
      <Compile Include="Assets\-FPH\_Scripts\z_Examples\FPH_Example_InteractIUseEquippedObject.cs" />
      <Compile Include="Assets\-FPH\_Scripts\z_Examples\FPH_Example_InteractObject.cs" />
      <Compile Include="Assets\Horror Game Assets\Models\Drauger\ApparitionBehavior.cs" />
+     <Compile Include="Assets\Horror Game Assets\Scripts\TriggerBoxScript.cs" />
      <Compile Include="Assets\Walk.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

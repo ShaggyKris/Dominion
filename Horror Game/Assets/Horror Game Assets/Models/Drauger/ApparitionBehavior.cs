@@ -2,17 +2,20 @@
 using System.Collections;
 
 public class ApparitionBehavior : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
+    
+	
     
 	// Update is called once per frame
 	void Update () {
 
+        //Increases object's x position to travel down hallway
         Vector3 pos = transform.position;
         pos.x = pos.x + 0.005f;
         transform.position = pos;
+       
+        if (transform.position.x > -25) //test to see if you can destory game object at certain position
+        {
+            Destroy(gameObject);
+        }
     }
 }
