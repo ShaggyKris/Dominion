@@ -20,12 +20,12 @@ public class ApparitionBehavior : MonoBehaviour
 			an.enabled = true;
 			//Increases object's x position to travel down hallway
 			Vector3 pos = transform.position;
-			pos.x = pos.x + 0.01f;
+			pos.x = pos.x + 0.007f;
 			transform.position = pos;
        
 			if (transform.position.x > -35) { //test to see if you can destory game object at certain position
 				fps.IsWalking(false);
-//				Destroy (gameObject);
+				Destroy (gameObject);
 			}
 		}
 	}
