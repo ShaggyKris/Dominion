@@ -75,15 +75,21 @@ public class FPH_DoorObject : MonoBehaviour {
 	// Use this for initialization
 	void Start(){
 		isOpen = false;
-		hasBeenUnlocked = FPH_ControlManager.LoadBool(hasBeenUnlockedKey);
-		if(hasBeenUnlocked){
-			doorType = 0;
-		}
-	}
+		//hasBeenUnlocked = FPH_ControlManager.LoadBool(hasBeenUnlockedKey);
+		//if(hasBeenUnlocked){
+		//	doorType = 0;
+		//}
+        doorType = 0;
+    }
 	
 	// Update is called once per frame
 	void Update(){
-	}
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            OpenDoor();
+        }
+    }
 	
 	public void OpenDoor(){
 		if(doorType == 0){

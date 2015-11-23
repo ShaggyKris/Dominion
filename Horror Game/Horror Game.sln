@@ -1,11 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{7DFE1FEF-AB25-EBE2-BBF7-9B0ABDEA2224}") = "Horror Game", "Assembly-CSharp-firstpass.csproj", "{4FA36571-AD94-0884-68C7-D9AE05071B7F}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horror Game.CSharp.Plugins", "Horror Game.CSharp.Plugins.csproj", "{5D07622C-F0D2-728C-AB23-200EF3AE0CC8}"
 EndProject
-Project("{7DFE1FEF-AB25-EBE2-BBF7-9B0ABDEA2224}") = "Horror Game", "Assembly-CSharp.csproj", "{9E47C544-0A85-7F0A-A217-07EFE9026730}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horror Game.CSharp", "Horror Game.CSharp.csproj", "{FA29F7FB-4A46-5664-677A-ADDEEF33B7D3}"
 EndProject
-Project("{7DFE1FEF-AB25-EBE2-BBF7-9B0ABDEA2224}") = "Horror Game", "Assembly-CSharp-Editor.csproj", "{A98244F2-D0D4-79C4-A613-4EE9BB00C9A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horror Game.CSharp.Editor", "Horror Game.CSharp.Editor.csproj", "{7463C3AB-81FB-6F0B-14B1-4FE8C353E22C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,49 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4FA36571-AD94-0884-68C7-D9AE05071B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FA36571-AD94-0884-68C7-D9AE05071B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FA36571-AD94-0884-68C7-D9AE05071B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FA36571-AD94-0884-68C7-D9AE05071B7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E47C544-0A85-7F0A-A217-07EFE9026730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E47C544-0A85-7F0A-A217-07EFE9026730}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E47C544-0A85-7F0A-A217-07EFE9026730}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E47C544-0A85-7F0A-A217-07EFE9026730}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A98244F2-D0D4-79C4-A613-4EE9BB00C9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A98244F2-D0D4-79C4-A613-4EE9BB00C9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A98244F2-D0D4-79C4-A613-4EE9BB00C9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A98244F2-D0D4-79C4-A613-4EE9BB00C9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D07622C-F0D2-728C-AB23-200EF3AE0CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D07622C-F0D2-728C-AB23-200EF3AE0CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D07622C-F0D2-728C-AB23-200EF3AE0CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D07622C-F0D2-728C-AB23-200EF3AE0CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA29F7FB-4A46-5664-677A-ADDEEF33B7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA29F7FB-4A46-5664-677A-ADDEEF33B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA29F7FB-4A46-5664-677A-ADDEEF33B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA29F7FB-4A46-5664-677A-ADDEEF33B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7463C3AB-81FB-6F0B-14B1-4FE8C353E22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7463C3AB-81FB-6F0B-14B1-4FE8C353E22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7463C3AB-81FB-6F0B-14B1-4FE8C353E22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7463C3AB-81FB-6F0B-14B1-4FE8C353E22C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																												GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																				GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> Stashed changes
-=======
-															GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> parent of 93dfdbd... Walking animation and locomotion
-=======
-																											GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> parent of 5dc0ad6... Thing
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.IndentWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-
 EndGlobal
