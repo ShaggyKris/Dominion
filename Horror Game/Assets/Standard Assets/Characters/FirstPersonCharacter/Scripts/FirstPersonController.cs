@@ -10,7 +10,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
-        [SerializeField] private bool m_IsWalking;
+		private float m_MaxRunSpeed;
+		private float m_MaxWalkSpeed;
+		[SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
@@ -55,6 +57,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+			m_MaxRunSpeed = m_RunSpeed;
+			m_MaxWalkSpeed = m_WalkSpeed;
+
         }
 
 
@@ -254,9 +259,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
 
-		public bool IsWalking
+		public void IsWalking(bool value)
 		{
-			set { m_RunSpeed = m_WalkSpeed; }
+			if(value)
+				m_RunSpeed = m_MaxWalkSpeed;
+			else{
+				m_RunSpeed = m_MaxWalkSpeed;
+			}
 		}
     }
 }

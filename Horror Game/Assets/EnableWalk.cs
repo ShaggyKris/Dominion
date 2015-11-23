@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnableWalk : MonoBehaviour
 {
-	public UnityStandardAssets.Characters.FirstPerson.FirstPersonController fps;
+
 
 	// Use this for initialization
 	void Start ()
@@ -14,7 +14,7 @@ public class EnableWalk : MonoBehaviour
 	void OnTriggerEnter (Collider other)
 	{
 		FindObjectOfType<ApparitionBehavior> ().EN = true;
-		fps.IsWalking=true;
+
 		GetComponent<BoxCollider>().enabled = false;
 
 	}

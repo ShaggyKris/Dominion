@@ -4,7 +4,7 @@ using System.Collections;
 public class ApparitionBehavior : MonoBehaviour
 {
 	public Animator an;
-
+	public UnityStandardAssets.Characters.FirstPerson.FirstPersonController fps;
 	// Use this for initialization
 	void Start ()
 	{
@@ -16,7 +16,7 @@ public class ApparitionBehavior : MonoBehaviour
 	void Update ()
 	{
 		if (EN) {
-
+			fps.IsWalking(true);
 			an.enabled = true;
 			//Increases object's x position to travel down hallway
 			Vector3 pos = transform.position;
@@ -24,7 +24,8 @@ public class ApparitionBehavior : MonoBehaviour
 			transform.position = pos;
        
 			if (transform.position.x > -35) { //test to see if you can destory game object at certain position
-				Destroy (gameObject);
+				fps.IsWalking(false);
+//				Destroy (gameObject);
 			}
 		}
 	}
