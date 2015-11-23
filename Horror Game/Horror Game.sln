@@ -29,13 +29,16 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																	GlobalSection(MonoDevelopProperties) = preSolution
+																																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																				GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> Stashed changes
 =======
 															GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> parent of 93dfdbd... Walking animation and locomotion
+=======
+																											GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> parent of 5dc0ad6... Thing
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
